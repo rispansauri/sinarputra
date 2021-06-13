@@ -396,14 +396,14 @@ public class frmJenisPakan extends javax.swing.JFrame {
     }//GEN-LAST:event_btnHapus1MouseClicked
 
     private void txtNmPakanFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtNmPakanFocusGained
-        if (txtNmPakan.getText().equals("Plat Nomor")){
+        if (txtNmPakan.getText().equals("Nama Pakan")){
             txtNmPakan.setText("");
         }
     }//GEN-LAST:event_txtNmPakanFocusGained
 
     private void txtNmPakanFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtNmPakanFocusLost
         if (txtNmPakan.getText().equals("")){
-            txtNmPakan.setText("Plat Nomor");
+            txtNmPakan.setText("Nama Pakan");
         }
     }//GEN-LAST:event_txtNmPakanFocusLost
 
